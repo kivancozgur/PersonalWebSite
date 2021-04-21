@@ -1,12 +1,6 @@
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/k%C4%B1van%C3%A7-%C3%B6zg%C3%BCr-a4b16114a/]
-
-
-<br />
 
 <!-- Proje Hakkında -->
 ## Proje Hakkında
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Bu projede kişisel web sitemi tasarlıyorum. Kendimi tanıttığım bir site olarak yayında olacak.
 
