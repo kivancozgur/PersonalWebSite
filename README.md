@@ -1,9 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/k%C4%B1van%C3%A7-%C3%B6zg%C3%BCr-a4b16114a/]
 
 
 <br />
@@ -13,64 +8,48 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Bu projede kişisel web sitemi tasarlıyorum. Kendimi tanıttığım bir site olarak yayında olacak.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Bunu neden yapıyorum:
+* İş görüşmelerinde referans olarak gösterebilmek için.
+* Uzun zamandır planladığım bir proje olduğu için.
+* Web Tabanlı Programlama dersinde ödev olarak gösterdiğim için :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+### Neler Kullanıyorum
 
-### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+Bu projede birçok kaynak kullanıyorum bunlar :
+* [Visual Studio (Asp.Net)](https://visualstudio.microsoft.com/tr/)
+* [SQL Server](https://www.microsoft.com/tr-tr/sql-server/sql-server-downloads)
+* [Entity Framework](https://docs.microsoft.com/tr-tr/ef/)
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- Başlarken -->
+## Başlarken
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Bu projeye başlarken şu adımları izledim : 
+1. Projenin planlanması (Gant şeması)
+2. Kullanılacak teknoloji seçimi
+3. Tasarım oluşturma
+4. Veritabanı oluşturma
+5. Kodlama
 
 
+<!-- Neler Yaptım -->
+## Neler Yaptım
 
-<!-- CONTRIBUTING -->
-## Contributing
+Projede ilerlediğim kısımlar hangileri?
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+1. Github'ta 'PersonalWebSite' adında bir Repositories oluşturdum.
+2. Uygun bir template buldum.
+3. Bulduğum tempate' i asp.net ortamına gerekli dosya yapılarını oluşturarak ekledim ve bunu (`git commit -m 'Template Yüklemesi'`) komutuyla repoma commit ettim.
+4. Anasayfada düzenlemeler yaptım ve bunuda (`git commit -m 'Anasayfa'`) olarak commit ettim.
+5. Katmanlı mimari yapısını oluşturdum ve bağlantılarını kurdum. Bunuda (`git commit -m 'Tasarım Kısmı Katmanlı Mimari ile Bağlandı'`) olarak commit ettim.
+6. Entity Framework ile veritabanını ekledim bunuda (`git commit -m 'Veritabanı'`) olarak commit ettim.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<!-- CONTACT -->
-## Contact
+<!-- İletişim -->
+## İletişim
 
 Kıvanç Özgür - webkivanc@gmail.com
 
