@@ -50,7 +50,7 @@
               </div>
               <div class="header-titles">
                 <h2>Kıvanç Özgür</h2>
-                <h4>Mobile App Developer</h4>
+                <h4>Mobil Uygulama Geliştiricisi</h4>
               </div>
             </div>
 
@@ -135,15 +135,15 @@
                           <h2>Kıvanç Özgür</h2>
                           <div class="owl-carousel text-rotation">                                    
                             <div class="item">
-                              <div class="sp-subtitle">Mobile App Developer</div>
+                              <div class="sp-subtitle">Mobil Uygulama Geliştiricisi</div>
                             </div>
                             
                             <div class="item">
-                              <div class="sp-subtitle">Frontend-developer</div>
+                              <div class="sp-subtitle">Ön Yüz Geliştiricisi</div>
                             </div>
 
                             <div class="item">
-                              <div class="sp-subtitle">Web Designer</div>
+                              <div class="sp-subtitle">Web Tasarımcısı</div>
                             </div>
                           </div>
                         </div>
@@ -157,43 +157,34 @@
               <!-- About Me Subpage -->
               <section data-id="about-me" class="animated-section">
                 <div class="page-title">
-                  <h2>About <span>Me</span></h2>
+                  <h2>Ben <span>Kimim ?</span></h2>
                 </div>
 
                 <div class="section-content">
                   <!-- Personal Information -->
                   <div class="row">
                     <div class="col-xs-12 col-sm-7">
-                      <p>Proin volutpat mauris ac pellentesque pharetra. Suspendisse congue elit vel odio suscipit, sit amet tempor nisl imperdiet. Quisque ex justo, faucibus ut mi in, condimentum finibus dolor. Aliquam vitae hendrerit dolor, eget imperdiet mauris. Maecenas et ante id ipsum condimentum dictum et vel massa. Ut in imperdiet dolor, vel consectetur dui.</p>
+                      <p>14 Ekim 1998 Bursa doğumluyum. Kendimi mobil uygulama ve web sitesi alanlarında geliştirdim. Şu an Textoni şirketinde CTO olarak çalışmaktayım.</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-5">
                       <div class="info-list">
                         <ul>
                           <li>
-                            <span class="title">Age</span>
-                            <span class="value">32</span>
+                            <span class="title">Yaş</span>
+                            <span class="value">23</span>
                           </li>
 
                           <li>
-                            <span class="title">Residence</span>
-                            <span class="value">USA</span>
+                            <span class="title">Vatandaşlık</span>
+                            <span class="value">Türkiye / Bulgaristan</span>
                           </li>
 
                           <li>
-                            <span class="title">Address</span>
-                            <span class="value">88 Some Street, Some Town</span>
+                            <span class="title">E-mail</span>
+                            <span class="value">webkivanc@gmail.com</span>
                           </li>
 
-                          <li>
-                            <span class="title">e-mail</span>
-                            <span class="value">email@example.com</span>
-                          </li>
-
-                          <li>
-                            <span class="title">Phone</span>
-                            <span class="value">+0123 123 456 789</span>
-                          </li>
                         </ul>
                       </div>
                     </div>
