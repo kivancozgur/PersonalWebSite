@@ -50,6 +50,7 @@
               </div>
               <div class="header-titles">
                 <h2>Kıvanç Özgür</h2>
+                <%--<asp:Label ID="ADI" runat="server" Text="Label"></asp:Label>--%>
                 <h4>Mobil Uygulama Geliştiricisi</h4>
               </div>
             </div>

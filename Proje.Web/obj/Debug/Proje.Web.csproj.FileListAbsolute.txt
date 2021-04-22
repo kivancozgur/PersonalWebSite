@@ -53,3 +53,12 @@ C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\obj\Debug\Proje.Web.cspr
 C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\obj\Debug\Proje.Web.csproj.CopyComplete
 C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\obj\Debug\Proje.Web.dll
 C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\obj\Debug\Proje.Web.pdb
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\EntityFramework.dll
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\Proje.Business.dll
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\Proje.DataAccess.dll
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\Proje.Business.pdb
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\Proje.DataAccess.pdb
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\Proje.DataAccess.dll.config
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\EntityFramework.xml
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Web\bin\EntityFramework.SqlServer.xml

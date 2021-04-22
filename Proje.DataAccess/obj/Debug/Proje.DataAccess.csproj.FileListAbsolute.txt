@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\bin\Debug\Proje.DataAccess.dll.config
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\bin\Debug\Proje.DataAccess.dll
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\bin\Debug\Proje.DataAccess.pdb
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\obj\Debug\Proje.DataAccess.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\obj\Debug\Proje.DataAccess.csproj.CopyComplete
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\obj\Debug\Proje.DataAccess.dll
+C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.DataAccess\obj\Debug\Proje.DataAccess.pdb

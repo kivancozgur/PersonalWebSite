@@ -18,5 +18,10 @@ namespace Proje.DataAccess
         public string ad { get; set; }
         public string soyad { get; set; }
         public string sektor { get; set; }
+
+        public static implicit operator KULLANICI(PersonalWebSiteBlogEntities v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
