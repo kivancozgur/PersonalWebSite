@@ -9,3 +9,17 @@ C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Business\obj\Debug\Proje.Bus
 C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Business\obj\Debug\Proje.Business.csproj.CopyComplete
 C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Business\obj\Debug\Proje.Business.dll
 C:\Users\ASUS\Desktop\PersonalWebSiteKatmanli\Proje.Business\obj\Debug\Proje.Business.pdb
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\Proje.Business.dll
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\Proje.Business.pdb
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\Proje.DataAccess.dll
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\Proje.DataAccess.pdb
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\Proje.DataAccess.dll.config
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\obj\Debug\Proje.Business.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\obj\Debug\Proje.Business.csproj.CopyComplete
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\obj\Debug\Proje.Business.dll
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\obj\Debug\Proje.Business.pdb
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\Proje.Business.dll.config
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\PersonalWebSite\Proje.Business\bin\Debug\EntityFramework.SqlServer.xml

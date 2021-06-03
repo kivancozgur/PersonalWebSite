@@ -49,9 +49,8 @@
                 <img src="Resource/img/main_photo.jpg" alt="Kıvanç Özgür">
               </div>
               <div class="header-titles">
-                <h2>Kıvanç Özgür</h2>
-                <%--<asp:Label ID="ADI" runat="server" Text="Label"></asp:Label>--%>
-                <h4>Mobil Uygulama Geliştiricisi</h4>
+                  <h2> <asp:Label Text="" ID="Adsoyad" runat="server" /> </h2>
+                <h4><asp:Label Text="" ID="Sektor" runat="server" /></h4>
               </div>
             </div>
 
