@@ -1,15 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="PersonalWebSiteBlogModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="BLOG">
-    <Key>
-      <PropertyRef Name="blog_id" />
-    </Key>
-    <Property Name="blog_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="baslik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="icerik" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="tarih" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="yazar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-  </EntityType>
   <EntityType Name="KULLANICI">
     <Key>
       <PropertyRef Name="kullanici_id" />
@@ -30,8 +20,19 @@
     <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
   <EntityContainer Name="DatabaseEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="BLOG" EntityType="Self.BLOG" />
     <EntitySet Name="KULLANICI" EntityType="Self.KULLANICI" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="BLOG" EntityType="PersonalWebSiteBlogModel.BLOG" />
   </EntityContainer>
+  <EntityType Name="BLOG">
+    <Key>
+      <PropertyRef Name="blog_id" />
+    </Key>
+    <Property Name="blog_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="konu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="baslik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="icerik" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="tarih" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="yazar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

@@ -5,8 +5,9 @@
       <PropertyRef Name="blog_id" />
     </Key>
     <Property Name="blog_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="konu" Type="nvarchar" MaxLength="50" />
     <Property Name="baslik" Type="nvarchar" MaxLength="50" />
-    <Property Name="icerik" Type="nvarchar" MaxLength="200" />
+    <Property Name="icerik" Type="nvarchar" MaxLength="1000" />
     <Property Name="tarih" Type="nvarchar" MaxLength="50" />
     <Property Name="yazar" Type="nvarchar" MaxLength="50" />
   </EntityType>

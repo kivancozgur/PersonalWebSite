@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="PersonalWebSiteBlogModelStoreContainer" CdmEntityContainer="DatabaseEntities">
-    <EntitySetMapping Name="BLOG">
-      <EntityTypeMapping TypeName="PersonalWebSiteBlogModel.BLOG">
-        <MappingFragment StoreEntitySet="BLOG">
-          <ScalarProperty Name="blog_id" ColumnName="blog_id" />
-          <ScalarProperty Name="baslik" ColumnName="baslik" />
-          <ScalarProperty Name="icerik" ColumnName="icerik" />
-          <ScalarProperty Name="tarih" ColumnName="tarih" />
-          <ScalarProperty Name="yazar" ColumnName="yazar" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="KULLANICI">
       <EntityTypeMapping TypeName="PersonalWebSiteBlogModel.KULLANICI">
         <MappingFragment StoreEntitySet="KULLANICI">
@@ -30,6 +19,18 @@
           <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
           <ScalarProperty Name="version" ColumnName="version" />
           <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BLOG">
+      <EntityTypeMapping TypeName="PersonalWebSiteBlogModel.BLOG">
+        <MappingFragment StoreEntitySet="BLOG">
+          <ScalarProperty Name="yazar" ColumnName="yazar" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="icerik" ColumnName="icerik" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="konu" ColumnName="konu" />
+          <ScalarProperty Name="blog_id" ColumnName="blog_id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

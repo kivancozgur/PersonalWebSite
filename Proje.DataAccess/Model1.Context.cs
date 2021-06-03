@@ -25,8 +25,8 @@ namespace Proje.DataAccess
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<BLOG> BLOG { get; set; }
         public virtual DbSet<KULLANICI> KULLANICI { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<BLOG> BLOG { get; set; }
     }
 }

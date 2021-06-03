@@ -6,7 +6,7 @@
 <head runat="server">
 <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>BreezyCV - Resume / CV / vCard Template</title>
+    <title>Kıvanç Özgür</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
@@ -45,62 +45,63 @@
     <div class="page">
       <div class="page-content">
 
-          <header id="site_header" class="header mobile-menu-hide">
+           <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content">
               <div class="header-photo">
-                <img src="../Resource/img/main_photo.jpg" alt="Alex Smith">
+                <img src="../Resource/img/main_photo.jpg" alt="Kıvanç Özgür">
               </div>
               <div class="header-titles">
-                <h2>Alex Smith</h2>
-                <h4>Web Designer</h4>
+                  <h2> <asp:Label Text="" ID="Adsoyad" runat="server" /> </h2>
+                <h4><asp:Label Text="" ID="Sektor" runat="server" /></h4>
               </div>
             </div>
 
             <ul class="main-menu">
               <li class="active">
-                <a href="index.html#about-me" class="nav-anim">
+                <a href="../Default.aspx" class="nav-anim">
                   <span class="menu-icon lnr lnr-home"></span>
-                  <span class="link-text">About Me</span>
+                  <span class="link-text">Anasayfa</span>
                 </a>
               </li>
               <li>
-                <a href="index.html#resume" class="nav-anim">
+                <a href="../Default.aspx#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user"></span>
+                  <span class="link-text">Hakkımda</span>
+                </a>
+              </li>
+              <li>
+                <a href="../Default.aspx#resume" class="nav-anim">
                   <span class="menu-icon lnr lnr-graduation-hat"></span>
-                  <span class="link-text">Resume</span>
+                  <span class="link-text">Özgeçmiş</span>
                 </a>
               </li>
               <li>
-                <a href="index.html#portfolio" class="nav-anim">
-                  <span class="menu-icon lnr lnr-briefcase"></span>
-                  <span class="link-text">Portfolio</span>
-                </a>
-              </li>
-              <li>
-                <a href="index.html#blog" class="nav-anim">
+                <a href="../Default.aspx#blog" class="nav-anim">
                   <span class="menu-icon lnr lnr-book"></span>
                   <span class="link-text">Blog</span>
                 </a>
               </li>
               <li>
-                <a href="index.html#contact" class="nav-anim">
+                <a href="../Default.aspx#contact" class="nav-anim">
                   <span class="menu-icon lnr lnr-envelope"></span>
-                  <span class="link-text">Contact</span>
+                  <span class="link-text">İletişim</span>
                 </a>
               </li>
             </ul>
 
             <div class="social-links">
               <ul>
-                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/k%C4%B1van%C3%A7-%C3%B6zg%C3%BCr-a4b16114a/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/kivancozgur" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/kivancozgr" target="_blank"><i class="fab fa-instagram"></i></a></li>
               </ul>
             </div>
 
-            <div class="header-buttons">
-              <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
-            </div>
-          
+            <!-- <div class="header-buttons">
+              <a href="#" target="_blank" class="btn btn-primary">CV</a>
+            </div> -->
+
+            <div class="copyrights">© 2020 All rights reserved.</div>
           </header>
 
           <!-- Mobile Navigation -->
@@ -125,11 +126,11 @@
                   <header class="entry-header">
                     <!-- Entry meta -->
                     <div class="entry-meta entry-meta-top">
-                      <span><a href="#" rel="category tag">UI</a></span>        
+                      <span><a href="#" rel="category tag"><asp:Label runat="server" ID="Konu"></asp:Label> </a></span>        
                     </div>
                     <!-- /Entry meta -->
 
-                    <h2 class="entry-title">Best Practices for Animated Progress Indicators</h2>
+                    <h2 class="entry-title"><asp:Label runat="server" ID="Baslik"></asp:Label> </h2>
                   </header>
                   <!-- /Entry header -->
 
@@ -138,18 +139,8 @@
                     <div class="row">
                       <div class=" col-xs-12 col-sm-12 ">
                         <div class="col-inner">
-                          <p>Nulla nulla nisl, sodales ac nulla ac, consequat vulputate purus. Curabitur tincidunt ipsum vel nibh rutrum accumsan. Nunc ullamcorper posuere leo, vitae aliquet risus pharetra in. Integer turpis eros, iaculis et mi non, pulvinar egestas leo. Etiam sagittis ex turpis, vitae cursus tortor interdum eu. Quisque ultrices nunc eget erat vestibulum euismod. Ut mauris nisi, facilisis at arcu nec, facilisis porttitor lorem.</p><p>Vivamus vitae neque molestie, porta libero sed, tincidunt leo. In nec posuere odio, id rhoncus lorem. Proin id erat ut dolor condimentum viverra. Praesent viverra sed dolor ac luctus. Praesent placerat id lorem quis lacinia.</p>
-                          
-                          <blockquote class="quote">Maecenas id finibus felis. Etiam vitae nibh et felis efficitur pellentesque. Mauris suscipit sapien nunc, a lacinia nibh feugiat ut. In hac habitasse platea dictumst.
-                            <footer class="quote-author">
-                              <span>Larry L. Johnson</span>
-                            </footer>
-                          </blockquote>
-
-                          <p>Etiam interdum vulputate risus, vitae elementum neque consectetur sed. Donec at risus dui. Ut in suscipit neque. Vestibulum sit amet lobortis magna, commodo venenatis ante. Cras molestie, ex a auctor lacinia, risus est aliquam risus, sit amet semper purus tortor id ante. Donec lacus ipsum, porttitor et libero a, fringilla auctor quam. Sed in nisl id libero tincidunt aliquet. Aenean dui ipsum, auctor ut leo ut, semper dignissim lacus. Suspendisse faucibus viverra consequat. Maecenas efficitur massa vel eros sagittis dapibus. Nam lobortis mi in turpis hendrerit eleifend. Nulla non massa felis.</p>
-
-                          <p>Donec sit amet dolor ante. Vivamus vel massa accumsan, faucibus quam quis, convallis velit. Aliquam erat volutpat. Integer imperdiet diam quis arcu venenatis, quis sagittis nibh rhoncus. Donec non nisi scelerisque, sodales metus quis, accumsan mauris. Curabitur volutpat risus rutrum erat condimentum tristique. Nullam at felis diam. Quisque dictum felis non ante pretium mollis. Aliquam turpis neque, varius nec diam a, aliquam pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ipsum libero, aliquet sed bibendum faucibus, semper a dui.</p>
-                        </div>
+                          <p><asp:Label runat="server" ID="Icerik"></asp:Label> </p>
+                         </div>
                       </div>
                     </div>
                   </div>
@@ -159,39 +150,25 @@
                     <div class="date-author">
                       <span class="entry-date">
                         <a href="#" rel="bookmark">
-                          <i class="far fa-clock"></i> <span class="entry-date"> March 16, 2020</span>
+                          <i class="far fa-clock"></i> <span class="entry-date"> <asp:Label runat="server" ID="Tarih"></asp:Label> </span>
                         </a>
                       </span>
                       <span class="author vcard">
-                        <a class="url fn n" href="#" rel="author"> <i class="fas fa-user"></i> LMPixels</a>
+                        <a class="url fn n" href="#" rel="author"> <i class="fas fa-user"></i> <asp:Label runat="server" ID="Yazar"></asp:Label> </a>
                       </span>
-                    </div>
+                    </div>  
       
                     <!-- Share Buttons -->
                     <div class="entry-share btn-group share-buttons">
-                      <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                      
-                      <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">
-                        <i class="fab fa-twitter"></i>
+                      <a href="https://github.com/kivancozgur/PersonalWebSite" target="_blank" title="Share on Facebook">
+                        <i class="fab fa-github"></i>
                       </a>
 
-                      <a href="#" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">
+                      <a href="https://www.linkedin.com/in/k%C4%B1van%C3%A7-%C3%B6zg%C3%BCr-a4b16114a/?originalSubdomain=tr"  class="btn" title="Share on LinkedIn">
                         <i class="fab fa-linkedin-in"></i>
                       </a>
                     </div>
                     <!-- /Share Buttons -->
-                  </div>
-
-                  <div class="post-tags">
-                    <div class="tags">
-                      <a href="#" rel="tag">animate</a>
-                      <a href="#" rel="tag">bar</a>
-                      <a href="#" rel="tag">design</a>
-                      <a href="#" rel="tag">progress</a>
-                      <a href="#" rel="tag">ui</a>
-                    </div>
                   </div>
                 </div>
               </article>

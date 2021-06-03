@@ -15,6 +15,7 @@ namespace Proje.DataAccess
     public partial class BLOG
     {
         public int blog_id { get; set; }
+        public string konu { get; set; }
         public string baslik { get; set; }
         public string icerik { get; set; }
         public string tarih { get; set; }
